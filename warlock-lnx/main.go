@@ -18,13 +18,7 @@ import (
 )
 
 const publicKeyPEM = `-----BEGIN PUBLIC KEY-----
-MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQB6+I7q5b5HqpKJ4MfD/oU5
-JyLQU9ZQ8x1fZKdn7cU2JvkvL5MT38ZROlDQibbE1OXHPPUcDxu8aB3CmWcmDDWi
-3z9q1pRk4FtfFdPt4amy5nyRTXjg16dSsEAhvyqL9M63UE52vaWDmxZ4CrKsjj78
-yJMUCnsVMCuuE3JOcMytzbgoCmR2kPtaluPwcc9Bzc6wGIXw+Dd+OfG7+2I0Jver
-LdS3yPYXk4swsKhlxDrtECgLxiLiZ4D0HqNS1dFZVDd4VjngjXbQillcBYNc/xyy
-yNzLZMj0035VOIISse1h41KIPUA8XipAyXLPEdUGoV/ci877zWOeWGDwmuJyrIeN
-AgMBAAE=
+
 -----END PUBLIC KEY-----`
 
 var fileExts = []string{".txt", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".jpg", ".jpeg", ".png"}
