@@ -25,9 +25,9 @@ All code in this repository is provided solely for educational and research purp
 
 - Generate a key-pair
 
-- Save priv key in a file priv_key.txt, and paste pub key in a source code
+- Save priv key in a file *priv_key.txt*, and paste pub key into a source code
 
-- Compile with: go build -o <output_name> <filename>.go
+- Compile with: go build -o *<output_name>* *<filename.go>*
 
 
 ```powershell
