@@ -2,8 +2,7 @@
 This repository contains source code, executables, and custom exploits developed for the Sharefall Siege Lab/Sharefall Siege Operation.
 
 # ⚠️ **Disclaimer**  
-All code and binaries in this repository are provided strictly for **educational and research purposes**.  
-They must only be used in isolated lab environments. Misuse against production systems or unauthorized targets is strictly prohibited.
+All code in this repository is provided solely for educational and research purposes. Use is permitted only within isolated lab environments. Any application against production systems or unauthorized targets is strictly prohibited. The author assumes no responsibility for misuse or unlawful activity arising from this material.
 
 # **Content and Usage**
 
@@ -21,6 +20,15 @@ They must only be used in isolated lab environments. Misuse against production s
 - **`-ip`** : Target IP address
 
 ## warlock.exe
+
+### Compiling:
+
+- Generate a key-pair
+
+- Save priv key in a file priv_key.txt, and paste pub key in a source code
+
+- Compile with: go build -o <output_name> <filename>.go
+
 
 ```powershell
 warlock.exe -m <mode> [options]
